@@ -1,0 +1,7 @@
+.members {
+  margin: 2em 1.5em;
+}
+
+.members > .ui.header {
+  margin-bottom: 1.25em;
+}
