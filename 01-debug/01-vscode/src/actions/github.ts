@@ -28,9 +28,9 @@ export const getMembers = {
   }),
 };
 
-interface SearchRepositoriesParams {
+export interface SearchRepositoriesParams {
   q: string;
-  sort: 'stars' | 'forks' | 'updated';
+  sort: 'stars' | 'forks' | 'updated' | null;
 }
 interface SearchRepositoriesResult {
   repositories: Model.Repository[];

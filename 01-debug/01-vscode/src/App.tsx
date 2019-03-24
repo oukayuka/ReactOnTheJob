@@ -5,7 +5,8 @@ import { Redirect, Route, Switch } from 'react-router';
 import pages from './pages';
 import Home from './components/Home';
 import Companies from './components/Companies';
-import Members from './containers/Companies/Members';
+import CompanyMembers from './containers/Companies/Members';
+import RepositorySearch from './components/Repositories/Search';
 
 import './App.css';
 
@@ -22,8 +23,12 @@ const App: FC = () => (
     </header>
     <Switch>
       <Route path="/" component={Home} exact />
-      <Route path={pages.companies.members.path} component={Members} />
+      <Route path={pages.companies.members.path} component={CompanyMembers} />
       <Route path={pages.companies.index.path} component={Companies} />
+      <Route
+        path={pages.repositories.search.path}
+        component={RepositorySearch}
+      />
       <Redirect to="/" />
     </Switch>
   </>

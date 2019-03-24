@@ -1,3 +1,16 @@
+/*
+type PageScheme =
+  | {
+      path: string;
+      title: string;
+    }
+  | Pages;
+
+interface Pages {
+  [x: string]: PageScheme;
+}
+*/
+
 const pages = {
   index: {
     path: '/',
@@ -10,7 +23,7 @@ const pages = {
     },
     members: {
       path: '/:companyName/members',
-      title: '%sのメンバー',
+      title: '%s のメンバー',
     },
   },
   repositories: {

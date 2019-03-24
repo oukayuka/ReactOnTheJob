@@ -1,7 +1,7 @@
-.members {
+.repositories {
   margin: 2em 1em;
 }
 
-.members > .ui.header {
+.repositories > .ui.header {
   margin-bottom: 1.25em;
 }

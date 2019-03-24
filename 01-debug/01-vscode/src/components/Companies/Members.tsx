@@ -2,24 +2,26 @@ import React, { FC } from 'react';
 import { Helmet } from 'react-helmet';
 import { Card, Header, Image } from 'semantic-ui-react';
 import capitalize from 'lodash/capitalize';
+import { sprintf } from 'sprintf-js';
 
+import pages from '../../pages';
 import { User } from '../../services/github/models';
 import Spinner from '../common/Spinner';
 
 import './Members.css';
 
-export interface MembersProps {
+export interface CompanyMembersProps {
   companyName: string;
   users: User[];
   isLoading?: boolean;
 }
 
-const Counter: FC<MembersProps> = ({
+const CompanyMembers: FC<CompanyMembersProps> = ({
   companyName = '<会社名>',
   users = [],
   isLoading = false,
 }) => {
-  const title = `${capitalize(companyName)}の開発メンバー`;
+  const title = sprintf(pages.companies.members.title, capitalize(companyName));
 
   return (
     <>
@@ -33,11 +35,7 @@ const Counter: FC<MembersProps> = ({
         ) : (
           <Card.Group>
             {users.map(user => (
-              <Card
-                key={user.id}
-                href={`https://github.com/${user.login}`}
-                target="_blank"
-              >
+              <Card key={user.id} href={user.htmlUrl} target="_blank">
                 <Card.Content>
                   <Image floated="right" size="mini" src={user.avatarUrl} />
                   <Card.Header>{user.login}</Card.Header>
@@ -52,4 +50,4 @@ const Counter: FC<MembersProps> = ({
   );
 };
 
-export default Counter;
+export default CompanyMembers;

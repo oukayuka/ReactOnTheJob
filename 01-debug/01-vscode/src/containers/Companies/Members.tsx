@@ -3,7 +3,9 @@ import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 
-import Members, { MembersProps } from '../../components/Companies/Members';
+import CompanyMembers, {
+  CompanyMembersProps,
+} from '../../components/Companies/Members';
 import { User } from '../../services/github/models';
 import { GithubState } from '../../reducer';
 import { getMembers } from '../../actions/github';
@@ -17,7 +19,7 @@ interface DispatchProps {
   getMembersStart: (companyName: string) => void;
 }
 
-type EnhancedMembersProps = MembersProps &
+type EnhancedCompanyMembersProps = CompanyMembersProps &
   StateProps &
   DispatchProps &
   RouteComponentProps<{ companyName: string }>;
@@ -36,7 +38,7 @@ const mapDispatchToProps = (dispatch: Dispatch): DispatchProps =>
     dispatch,
   );
 
-const MembersContainer: FC<EnhancedMembersProps> = ({
+const CompanyMembersContainer: FC<EnhancedCompanyMembersProps> = ({
   users,
   isLoading,
   getMembersStart,
@@ -49,7 +51,11 @@ const MembersContainer: FC<EnhancedMembersProps> = ({
   }, []);
 
   return (
-    <Members companyName={companyName} users={users} isLoading={isLoading} />
+    <CompanyMembers
+      companyName={companyName}
+      users={users}
+      isLoading={isLoading}
+    />
   );
 };
 
@@ -57,5 +63,5 @@ export default withRouter(
   connect(
     mapStateToProps,
     mapDispatchToProps,
-  )(MembersContainer),
+  )(CompanyMembersContainer),
 );
