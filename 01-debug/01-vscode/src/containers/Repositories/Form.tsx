@@ -39,12 +39,18 @@ const RepositoryFormContainer: FC<EnhancedRepositorySearchProps> = ({
 }) => {
   const [values, setValues] = useState<RepositoryFormValues>({
     q: '',
-    sort: null,
   });
 
-  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (
+    event: ChangeEvent<HTMLInputElement | HTMLSelectElement>,
+  ) => {
     event.persist();
     setValues(v => ({ ...v, [event.target.name]: event.target.value }));
+    const newValues = { ...values, [event.target.name]: event.target.value };
+
+    if (!!values.q.trim() && event.target.name === 'sort') {
+      searchRepositoriesStart(newValues);
+    }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {

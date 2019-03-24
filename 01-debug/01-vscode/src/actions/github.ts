@@ -3,7 +3,7 @@ import { AxiosError } from 'axios';
 import * as Model from '../services/github/models';
 import * as ActionType from './githubConstants';
 
-interface GetMembersParams {
+export interface GetMembersParams {
   companyName: string;
 }
 interface GetMembersResult {
@@ -30,7 +30,7 @@ export const getMembers = {
 
 export interface SearchRepositoriesParams {
   q: string;
-  sort: 'stars' | 'forks' | 'updated' | null;
+  sort?: 'stars' | 'forks' | 'updated' | '';
 }
 interface SearchRepositoriesResult {
   repositories: Model.Repository[];

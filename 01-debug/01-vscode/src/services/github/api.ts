@@ -20,16 +20,16 @@ const createAxiosInstance = (optionConfig?: ApiConfig) => {
     ...optionConfig,
   };
   const instance = axios.create(config);
+  instance.interceptors.response.use(res => ({
+    ...res,
+    data: camelcaseKeys(res.data, { deep: true }),
+  }));
 
   return instance;
 };
 
 export const getMembersFactory = (optionConfig?: ApiConfig) => {
   const instance = createAxiosInstance(optionConfig);
-  instance.interceptors.response.use(res => ({
-    ...res,
-    data: camelcaseKeys(res.data, { deep: true }),
-  }));
 
   const getMembers = async (organizationName: string) => {
     try {
@@ -51,17 +51,10 @@ export const getMembersFactory = (optionConfig?: ApiConfig) => {
 
 export const searchRepositoriesFactory = (optionConfig?: ApiConfig) => {
   const instance = createAxiosInstance(optionConfig);
-  instance.interceptors.response.use(res => ({
-    ...res,
-    data: {
-      ...res.data,
-      items: camelcaseKeys(res.data.items, { deep: true }),
-    },
-  }));
 
   const searchRepositories = async (
     q: string,
-    sort?: 'stars' | 'forks' | 'updated' | null,
+    sort?: 'stars' | 'forks' | 'updated' | '',
   ) => {
     try {
       const params = qs.stringify({ q, sort });

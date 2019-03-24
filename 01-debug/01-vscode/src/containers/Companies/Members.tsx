@@ -8,7 +8,7 @@ import CompanyMembers, {
 } from '../../components/Companies/Members';
 import { User } from '../../services/github/models';
 import { GithubState } from '../../reducer';
-import { getMembers } from '../../actions/github';
+import { getMembers, GetMembersParams } from '../../actions/github';
 
 interface StateProps {
   users: User[];
@@ -16,7 +16,7 @@ interface StateProps {
 }
 
 interface DispatchProps {
-  getMembersStart: (companyName: string) => void;
+  getMembersStart: (params: GetMembersParams) => void;
 }
 
 type EnhancedCompanyMembersProps = CompanyMembersProps &
@@ -32,8 +32,7 @@ const mapStateToProps = (state: GithubState): StateProps => ({
 const mapDispatchToProps = (dispatch: Dispatch): DispatchProps =>
   bindActionCreators(
     {
-      getMembersStart: (companyName: string) =>
-        getMembers.start({ companyName }),
+      getMembersStart: params => getMembers.start(params),
     },
     dispatch,
   );
@@ -47,7 +46,7 @@ const CompanyMembersContainer: FC<EnhancedCompanyMembersProps> = ({
   const { companyName } = match.params;
 
   useEffect(() => {
-    getMembersStart(companyName);
+    getMembersStart({ companyName });
   }, []);
 
   return (

@@ -8,20 +8,33 @@ import './Form.css';
 export type RepositoryFormValues = SearchRepositoriesParams;
 
 export interface RepositoryFormProps {
-  handleChange?: (event: ChangeEvent<HTMLInputElement>) => void;
+  handleChange?: (
+    event: ChangeEvent<HTMLInputElement | HTMLSelectElement>,
+  ) => void;
   handleSubmit?: (event: FormEvent<HTMLFormElement>) => void;
-  values?: { q: string; sort: 'stars' | 'forks' | 'updated' | null };
+  values?: RepositoryFormValues;
   isLoading?: boolean;
 }
 
 const RepositoryForm: FC<RepositoryFormProps> = ({
   handleChange = () => {},
   handleSubmit = () => {},
-  values = { q: '', sort: null },
+  values = { q: '', sort: undefined },
   isLoading = false,
 }) => (
   <>
     <form className="repository-form" onSubmit={handleSubmit}>
+      <div className="sort-container">
+        <select name="sort" className="sort-select" onChange={handleChange}>
+          <option value="" className="none">
+            並び順
+          </option>
+          <option value="">マッチ度</option>
+          <option value="stars">スター数</option>
+          <option value="forks">フォーク数</option>
+          <option value="updated">更新日</option>
+        </select>
+      </div>
       <Input
         placeholder="リポジトリ名を入力..."
         type="text"
