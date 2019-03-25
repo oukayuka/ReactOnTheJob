@@ -32,6 +32,7 @@ yarn-error.log*
 # IDE
 .idea/
 .*.swp
+.vscode/chrome
 
 # misc
 .DS_Store
