@@ -1,0 +1,8 @@
+.members {
+  margin: 2em 1em;
+}
+
+.members > .ui.header {
+  margin-bottom: 1.25em;
+  text-align: center;
+}

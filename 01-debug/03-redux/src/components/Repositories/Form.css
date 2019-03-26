@@ -1,0 +1,54 @@
+.repository-form {
+  margin: 2em 0 4em;
+  text-align: center;
+}
+
+.repository-form > .ui.input {
+  margin: 0.5em;
+  width: 30em;
+}
+
+.sort-container {
+  display: inline-block;
+  position: relative;
+  width: 12em;
+}
+
+.sort-container::after {
+  border: 0;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  border-right: 1px solid rgba(34, 36, 38, 0.15);
+  content: '';
+  height: 6px;
+  margin-top: -4px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 6px;
+}
+
+.sort-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+  color: #888;
+  height: 2.7em;
+  padding: 0 40px 0 10px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.sort-select::-ms-expand {
+  display: none;
+}
+
+.none {
+  display: none;
+}
