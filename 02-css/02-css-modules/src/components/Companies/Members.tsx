@@ -8,7 +8,7 @@ import pages from '../../pages';
 import { User } from '../../services/github/models';
 import Spinner from '../common/Spinner';
 
-import styles from './members_.module.css';
+import styles from './members.module.css';
 
 export interface CompanyMembersProps {
   companyName: string;
