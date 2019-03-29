@@ -1,7 +1,9 @@
+/** @jsx jsx */
 import React, { FC, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 import { RouteComponentProps, withRouter } from 'react-router';
+import { jsx } from '@emotion/core';
 
 import CompanyMembers, {
   CompanyMembersProps,

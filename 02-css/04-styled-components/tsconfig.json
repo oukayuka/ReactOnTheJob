@@ -22,8 +22,7 @@
     "outDir": "./build"
   },
   "include": [
-    "src",
-    "global.d.ts"
+    "src"
   ],
   "exclude": [
     "node_modules",

@@ -1,11 +1,15 @@
+/** @jsx jsx */
 import React, { FC } from 'react';
+import { css, jsx } from '@emotion/core';
 import { Card, Icon, Image } from 'semantic-ui-react';
 import { format, parse } from 'date-fns';
 
 import Spinner from '../common/Spinner';
 import { Repository } from '../../services/github/models';
 
-import styles from './list.module.css';
+const stats = css`
+  margin-right: 1em;
+`;
 
 export interface RepositoryListProps {
   repositories?: Repository[];
@@ -16,7 +20,7 @@ const RepositoryList: FC<RepositoryListProps> = ({
   repositories = [],
   isLoading = false,
 }) => (
-  <>
+  <div>
     {isLoading ? (
       <Spinner />
     ) : (
@@ -32,15 +36,15 @@ const RepositoryList: FC<RepositoryListProps> = ({
               <Card.Description>{repo.description}</Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <span className={styles.stats}>
+              <span css={stats}>
                 <Icon name="star" />
                 {repo.stargazersCount}
               </span>
-              <span className={styles.stats}>
+              <span css={stats}>
                 <Icon name="fork" />
                 {repo.forksCount}
               </span>
-              <span className={styles.stats}>
+              <span css={stats}>
                 <Icon name="eye" />
                 {repo.watchersCount}
               </span>
@@ -49,7 +53,7 @@ const RepositoryList: FC<RepositoryListProps> = ({
         ))}
       </Card.Group>
     )}
-  </>
+  </div>
 );
 
 export default RepositoryList;

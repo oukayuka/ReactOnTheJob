@@ -1,5 +1,7 @@
+/** @jsx jsx */
 import React, { FC } from 'react';
 import { connect } from 'react-redux';
+import { jsx } from '@emotion/core';
 
 import RepositoriesSearch, {
   RepositoryListProps,

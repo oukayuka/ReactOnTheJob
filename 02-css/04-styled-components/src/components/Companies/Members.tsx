@@ -1,4 +1,6 @@
+/** @jsx jsx */
 import React, { FC } from 'react';
+import { css, jsx } from '@emotion/core';
 import { Helmet } from 'react-helmet';
 import { Card, Header, Image } from 'semantic-ui-react';
 import capitalize from 'lodash/capitalize';
@@ -8,7 +10,13 @@ import pages from '../../pages';
 import { User } from '../../services/github/models';
 import Spinner from '../common/Spinner';
 
-import styles from './members.module.css';
+const members = css`
+  margin: 2em 1em;
+`;
+const memberHeader = css`
+  margin-bottom: 1.25em !important;
+  text-align: center;
+`;
 
 export interface CompanyMembersProps {
   companyName: string;
@@ -24,12 +32,12 @@ const CompanyMembers: FC<CompanyMembersProps> = ({
   const title = sprintf(pages.companies.members.title, capitalize(companyName));
 
   return (
-    <>
+    <div>
       <Helmet>
         <title>{title}</title>
       </Helmet>
-      <div className={styles.members}>
-        <Header as="h2" className={styles.header}>
+      <div css={members}>
+        <Header as="h2" css={memberHeader}>
           {title}
         </Header>
         {isLoading ? (
@@ -48,7 +56,7 @@ const CompanyMembers: FC<CompanyMembersProps> = ({
           </Card.Group>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,4 +1,6 @@
+/** @jsx jsx */
 import React, { FC } from 'react';
+import { css, jsx } from '@emotion/core';
 import { Helmet } from 'react-helmet';
 import { Redirect, Route, Switch } from 'react-router';
 
@@ -8,17 +10,22 @@ import Companies from './components/Companies';
 import CompanyMembers from './containers/Companies/Members';
 import RepositorySearch from './components/Repositories/Search';
 
-import styles from './app.module.css';
-
+const appHeader = css`
+  background-color: #222;
+  color: white;
+  margin-bottom: 4em;
+  padding: 20px;
+  text-align: center;
+`;
 const title = 'GitHub API デモアプリ';
 
 const App: FC = () => (
-  <>
+  <div>
     <Helmet htmlAttributes={{ lang: 'ja' }}>
       <title>{title}</title>
     </Helmet>
 
-    <header className={styles.appHeader}>
+    <header css={appHeader}>
       <h1>{title}</h1>
     </header>
     <Switch>
@@ -31,7 +38,7 @@ const App: FC = () => (
       />
       <Redirect to="/" />
     </Switch>
-  </>
+  </div>
 );
 
 export default App;

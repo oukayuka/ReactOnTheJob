@@ -1,17 +1,19 @@
+/** @jsx jsx */
 import React, { FC } from 'react';
 import { Link } from 'react-router-dom';
+import { jsx } from '@emotion/core';
 import capitalize from 'lodash/capitalize';
 import { List } from 'semantic-ui-react';
 
-import styles from '../common/list.module.css';
+import { listItem } from '../common/list';
 
 const companies = ['facebook', 'airbnb', 'netflix'];
 
 const Home: FC = () => (
-  <>
+  <div>
     <List celled relaxed>
       {companies.map(companyName => (
-        <List.Item className={styles.item} key={companyName}>
+        <List.Item css={listItem} key={companyName}>
           <List.Icon name="users" size="large" verticalAlign="middle" />
           <List.Content>
             <Link to={`/${companyName}/members`}>
@@ -21,7 +23,7 @@ const Home: FC = () => (
         </List.Item>
       ))}
     </List>
-  </>
+  </div>
 );
 
 export default Home;

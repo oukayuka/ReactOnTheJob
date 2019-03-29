@@ -1,15 +1,16 @@
+/** @jsx jsx */
 import React, { FC } from 'react';
+import { jsx } from '@emotion/core';
 import { Link } from 'react-router-dom';
 import { List } from 'semantic-ui-react';
 
 import pages from '../pages';
-
-import styles from './common/list.module.css';
+import { listItem } from './common/list';
 
 const Home: FC = () => (
-  <>
+  <div>
     <List celled relaxed>
-      <List.Item className={styles.item}>
+      <List.Item css={listItem}>
         <List.Icon
           name="building outline"
           size="large"
@@ -21,7 +22,7 @@ const Home: FC = () => (
           </Link>
         </List.Content>
       </List.Item>
-      <List.Item className={styles.item}>
+      <List.Item css={listItem}>
         <List.Icon name="code" size="large" verticalAlign="middle" />
         <List.Content>
           <Link to={pages.repositories.search.path}>
@@ -30,7 +31,7 @@ const Home: FC = () => (
         </List.Content>
       </List.Item>
     </List>
-  </>
+  </div>
 );
 
 export default Home;

@@ -1,6 +1,8 @@
+/** @jsx jsx */
 import React, { FC, FormEvent, SyntheticEvent, useState } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
+import { jsx } from '@emotion/core';
 
 import RepositoryForm, {
   RepositoryFormProps,

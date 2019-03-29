@@ -1,9 +1,18 @@
+/** @jsx jsx */
 import React, { FC, FormEvent } from 'react';
+import { jsx, css } from '@emotion/core';
 import { Button, Dropdown, Input } from 'semantic-ui-react';
 
 import { SearchRepositoriesParams } from '../../actions/github';
 
-import styles from './form.module.css';
+const form = css`
+  margin: 2em 0 4em;
+  text-align: center;
+`;
+const input = css`
+  margin: 0.5em;
+  width: 30em;
+`;
 
 export type RepositoryFormValues = SearchRepositoriesParams;
 
@@ -43,8 +52,8 @@ const RepositoryForm: FC<RepositoryFormProps> = ({
   values = { q: '', sort: undefined },
   isLoading = false,
 }) => (
-  <>
-    <form className={styles.form} onSubmit={handleSubmit}>
+  <div>
+    <form css={form} onSubmit={handleSubmit}>
       <Dropdown
         name="sort"
         onChange={(event, data) => handleChange('sort', String(data.value))}
@@ -59,7 +68,7 @@ const RepositoryForm: FC<RepositoryFormProps> = ({
         name="q"
         onChange={(event, data) => handleChange('q', String(data.value))}
         value={values.q}
-        className={styles.input}
+        css={input}
       />
       <Button
         type="submit"
@@ -70,7 +79,7 @@ const RepositoryForm: FC<RepositoryFormProps> = ({
         検索
       </Button>
     </form>
-  </>
+  </div>
 );
 
 export default RepositoryForm;
