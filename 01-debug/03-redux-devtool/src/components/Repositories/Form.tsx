@@ -1,5 +1,5 @@
-import React, { FC, ChangeEvent, FormEvent } from 'react';
-import { Button, Input } from 'semantic-ui-react';
+import React, { FC, FormEvent } from 'react';
+import { Button, Dropdown, Input } from 'semantic-ui-react';
 
 import { SearchRepositoriesParams } from '../../actions/github';
 
@@ -8,13 +8,34 @@ import './Form.css';
 export type RepositoryFormValues = SearchRepositoriesParams;
 
 export interface RepositoryFormProps {
-  handleChange?: (
-    event: ChangeEvent<HTMLInputElement | HTMLSelectElement>,
-  ) => void;
+  handleChange?: (targetName: string, newValue: string) => void;
   handleSubmit?: (event: FormEvent<HTMLFormElement>) => void;
   values?: RepositoryFormValues;
   isLoading?: boolean;
 }
+
+const sortOptions = [
+  {
+    key: 'match',
+    text: 'マッチ度',
+    value: '',
+  },
+  {
+    key: 'stars',
+    text: 'スター数',
+    value: 'stars',
+  },
+  {
+    key: 'forks',
+    text: 'フォーク数',
+    value: 'forks',
+  },
+  {
+    key: 'updated',
+    text: '更新日',
+    value: 'updated',
+  },
+];
 
 const RepositoryForm: FC<RepositoryFormProps> = ({
   handleChange = () => {},
@@ -24,22 +45,19 @@ const RepositoryForm: FC<RepositoryFormProps> = ({
 }) => (
   <>
     <form className="repository-form" onSubmit={handleSubmit}>
-      <div className="sort-container">
-        <select name="sort" className="sort-select" onChange={handleChange}>
-          <option value="" className="none">
-            並び順
-          </option>
-          <option value="">マッチ度</option>
-          <option value="stars">スター数</option>
-          <option value="forks">フォーク数</option>
-          <option value="updated">更新日</option>
-        </select>
-      </div>
+      <Dropdown
+        name="sort"
+        onChange={(event, data) => handleChange('sort', String(data.value))}
+        value={values.sort}
+        options={sortOptions}
+        placeholder="並び順"
+        selection
+      />
       <Input
         placeholder="リポジトリ名を入力..."
         type="text"
         name="q"
-        onChange={handleChange}
+        onChange={(event, data) => handleChange('q', String(data.value))}
         value={values.q}
       />
       <Button

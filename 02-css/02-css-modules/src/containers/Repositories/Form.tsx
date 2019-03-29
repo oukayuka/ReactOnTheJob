@@ -1,4 +1,4 @@
-import React, { FC, ChangeEvent, FormEvent, useState } from 'react';
+import React, { FC, FormEvent, SyntheticEvent, useState } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 
@@ -42,13 +42,18 @@ const RepositoryFormContainer: FC<EnhancedRepositorySearchProps> = ({
   });
 
   const handleChange = (
-    event: ChangeEvent<HTMLInputElement | HTMLSelectElement>,
+    targetName: string,
+    newValue: string,
+    event?: SyntheticEvent,
   ) => {
-    event.persist();
-    setValues(v => ({ ...v, [event.target.name]: event.target.value }));
-    const newValues = { ...values, [event.target.name]: event.target.value };
+    if (event) {
+      event.persist();
+    }
 
-    if (!!values.q.trim() && event.target.name === 'sort') {
+    setValues(v => ({ ...v, [targetName]: newValue }));
+    const newValues = { ...values, [targetName]: newValue };
+
+    if (!!values.q.trim() && targetName === 'sort') {
       searchRepositoriesStart(newValues);
     }
   };
