@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "plugins": [{ "name": "css-module-types" } ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "tsBuildInfoFile": "./buildcache",
+    "outDir": "./build"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "scripts",
+    "webpack",
+    "jest",
+    "src/setupTests.ts",
+    "**/__mocks__",
+    "**/__tests__",
+    "**/stories",
+    "**/*/*.spec.ts",
+    "**/*/*.test.ts",
+    "**/*/*.stories.*",
+    "**/*/*.story.*"
+  ]
+}
