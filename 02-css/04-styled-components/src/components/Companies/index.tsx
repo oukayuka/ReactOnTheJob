@@ -9,7 +9,7 @@ import { listItem } from '../common/list';
 
 const companies = ['facebook', 'airbnb', 'netflix'];
 
-const Home: FC = () => (
+const Companies: FC = () => (
   <div>
     <List celled relaxed>
       {companies.map(companyName => (
@@ -26,4 +26,4 @@ const Home: FC = () => (
   </div>
 );
 
-export default Home;
+export default Companies;

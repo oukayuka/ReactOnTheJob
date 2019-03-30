@@ -7,7 +7,7 @@ import './index.css';
 
 const companies = ['facebook', 'airbnb', 'netflix'];
 
-const Home: FC = () => (
+const Companies: FC = () => (
   <>
     <List celled relaxed>
       {companies.map(companyName => (
@@ -24,4 +24,4 @@ const Home: FC = () => (
   </>
 );
 
-export default Home;
+export default Companies;
