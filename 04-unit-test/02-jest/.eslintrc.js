@@ -110,7 +110,11 @@ module.exports = {
           '.storybook/**',
           'stories/**',
           '**/*/*.story.*',
-          '**/*/*.stories.*'
+          '**/*/*.stories.*',
+          '**/__specs__/**',
+          '**/*/*.spec.*',
+          '**/__tests__/**',
+          '**/*/*.test.*',
         ]
       }
     ],
