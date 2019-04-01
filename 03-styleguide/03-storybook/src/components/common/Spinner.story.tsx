@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import React from 'react';
 import { jsx } from '@emotion/core';
 import { storiesOf } from '@storybook/react';
 import { text } from '@storybook/addon-knobs';

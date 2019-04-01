@@ -15,8 +15,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "tsBuildInfoFile": "./buildcache",
-    "outDir": "./build"
+    "outDir": "build",
+    "rootDirs": ["src"]
   },
   "include": ["src"],
   "exclude": [
@@ -29,10 +29,7 @@
     "src/setupTests.ts",
     "**/__mocks__",
     "**/__tests__",
-    "**/stories",
     "**/*/*.spec.ts",
-    "**/*/*.test.ts",
-    "**/*/*.stories.*",
-    "**/*/*.story.*"
+    "**/*/*.test.ts"
   ]
 }

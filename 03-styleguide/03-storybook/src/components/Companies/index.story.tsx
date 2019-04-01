@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { jsx } from '@emotion/core';
 import { storiesOf } from '@storybook/react';
