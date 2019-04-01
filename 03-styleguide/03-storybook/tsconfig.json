@@ -23,13 +23,6 @@
     "node_modules",
     "build",
     "dist",
-    "scripts",
-    "webpack",
-    "jest",
-    "src/setupTests.ts",
-    "**/__mocks__",
-    "**/__tests__",
-    "**/*/*.spec.ts",
-    "**/*/*.test.ts"
+    "scripts"
   ]
 }

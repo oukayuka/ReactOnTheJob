@@ -14,7 +14,7 @@ describe('GitHub API handlers', () => {
   });
 
   describe('Getting organization members', () => {
-    test('is succeeded', async () => {
+    it('is succeeded', async () => {
       const companyName = 'facebook';
       mock.onGet(`/orgs/${companyName}/members`).reply(200, userData);
 
@@ -24,7 +24,7 @@ describe('GitHub API handlers', () => {
       expect(members[0].login).toBe(userData[0].login);
     });
 
-    test('is failed with nonexistent name', async () => {
+    it('is failed with nonexistent name', async () => {
       const companyName = 'facebook';
       mock.onGet(`/${companyName}/members`).reply(
         404,
@@ -50,7 +50,7 @@ describe('GitHub API handlers', () => {
     const sort = 'stars';
     const params = qs.stringify({ q, sort });
 
-    test('is succeeded', async () => {
+    it('is succeeded', async () => {
       mock
         .onGet(`/search/repositories?${params}`)
         .reply(200, { items: repoData });
@@ -61,7 +61,7 @@ describe('GitHub API handlers', () => {
       expect(repos[0].id).toBe(repoData[0].id);
     });
 
-    test('is failed with server error', async () => {
+    it('is failed with server error', async () => {
       mock
         .onGet(`/search/repositories?${params}`)
         .reply(500, 'Internal Server Error');
