@@ -4,11 +4,16 @@ import * as Action from '../actions/githubConstants';
 import { getMembers, searchRepositories } from '../actions/github';
 import * as api from '../services/github/api';
 
-function* runGetMembers(action: ReturnType<typeof getMembers.start>) {
+const getMembersHandler = api.getMembersFactory();
+const searchRepositoriesHandler = api.searchRepositoriesFactory();
+
+function* runGetMembers(
+  handler: typeof getMembersHandler,
+  action: ReturnType<typeof getMembers.start>,
+) {
   const { companyName } = action.payload;
 
   try {
-    const handler = api.getMembersFactory();
     const users = yield call(handler, companyName);
 
     yield put(getMembers.succeed(action.payload, { users }));
@@ -17,17 +22,17 @@ function* runGetMembers(action: ReturnType<typeof getMembers.start>) {
   }
 }
 
-export function* watchGetMembers() {
-  yield takeLatest(Action.GET_MEMBERS_START, runGetMembers);
+export function* watchGetMembers(handler: typeof getMembersHandler) {
+  yield takeLatest(Action.GET_MEMBERS_START, runGetMembers, handler);
 }
 
 function* runSearchRepositories(
+  handler: typeof searchRepositoriesHandler,
   action: ReturnType<typeof searchRepositories.start>,
 ) {
   const { q, sort } = action.payload;
 
   try {
-    const handler = api.searchRepositoriesFactory();
     const repositories = yield call(handler, q, sort);
 
     yield put(searchRepositories.succeed(action.payload, { repositories }));
@@ -36,10 +41,19 @@ function* runSearchRepositories(
   }
 }
 
-export function* watchSearchRepositories() {
-  yield takeLatest(Action.SEARCH_REPOSITORIES_START, runSearchRepositories);
+export function* watchSearchRepositories(
+  handler: typeof searchRepositoriesHandler,
+) {
+  yield takeLatest(
+    Action.SEARCH_REPOSITORIES_START,
+    runSearchRepositories,
+    handler,
+  );
 }
 
 export default function* rootSaga() {
-  yield all([fork(watchGetMembers), fork(watchSearchRepositories)]);
+  yield all([
+    fork(watchGetMembers, getMembersHandler),
+    fork(watchSearchRepositories, searchRepositoriesHandler),
+  ]);
 }
