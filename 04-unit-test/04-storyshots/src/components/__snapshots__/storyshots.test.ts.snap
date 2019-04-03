@@ -1228,9 +1228,18 @@ exports[`Storyshots Common/Spinner default 1`] = `
       className="ui segment css-155pcfb-Spinner"
     >
       <div
-        className="ui text loader"
+        className="ui active transition visible inverted dimmer"
+        onClick={[Function]}
       >
-        読み込み中...
+        <div
+          className="content"
+        >
+          <div
+            className="ui text loader"
+          >
+            読み込み中...
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -1482,9 +1491,18 @@ exports[`Storyshots Common/Spinner with custom text 1`] = `
       className="ui segment css-155pcfb-Spinner"
     >
       <div
-        className="ui text loader"
+        className="ui active transition visible inverted dimmer"
+        onClick={[Function]}
       >
-        ただいま結果を取得中です！
+        <div
+          className="content"
+        >
+          <div
+            className="ui text loader"
+          >
+            ただいま結果を取得中です！
+          </div>
+        </div>
       </div>
     </div>
   </div>
