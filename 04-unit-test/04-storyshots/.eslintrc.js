@@ -115,6 +115,7 @@ module.exports = {
           '**/*/*.spec.*',
           '**/__tests__/**',
           '**/*/*.test.*',
+          'src/setupTests.*'
         ]
       }
     ],
