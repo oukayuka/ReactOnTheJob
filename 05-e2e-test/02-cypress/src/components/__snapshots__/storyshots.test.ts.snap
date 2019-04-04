@@ -1,0 +1,4686 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Common/RepositoryList with data 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="ui cards"
+    >
+      <a
+        className="ui card"
+        href="https://github.com/reduxjs/redux"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars3.githubusercontent.com/u/13142323?v=4"
+          />
+          <div
+            className="header"
+          >
+            redux
+          </div>
+          <div
+            className="meta"
+          >
+            updated: 
+            2019/03/31
+          </div>
+          <div
+            className="description"
+          >
+            Predictable state container for JavaScript apps
+          </div>
+        </div>
+        <div
+          className="extra content"
+        >
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="star icon"
+              onClick={[Function]}
+            />
+            47772
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="fork icon"
+              onClick={[Function]}
+            />
+            12182
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="eye icon"
+              onClick={[Function]}
+            />
+            47772
+          </span>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/StephenGrider/ReduxSimpleStarter"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars1.githubusercontent.com/u/5003903?v=4"
+          />
+          <div
+            className="header"
+          >
+            ReduxSimpleStarter
+          </div>
+          <div
+            className="meta"
+          >
+            updated: 
+            2019/03/30
+          </div>
+          <div
+            className="description"
+          >
+            Starter pack for an awesome Udemy course
+          </div>
+        </div>
+        <div
+          className="extra content"
+        >
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="star icon"
+              onClick={[Function]}
+            />
+            3465
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="fork icon"
+              onClick={[Function]}
+            />
+            5023
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="eye icon"
+              onClick={[Function]}
+            />
+            3465
+          </span>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/StephenGrider/ReduxCasts"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars1.githubusercontent.com/u/5003903?v=4"
+          />
+          <div
+            className="header"
+          >
+            ReduxCasts
+          </div>
+          <div
+            className="meta"
+          >
+            updated: 
+            2019/03/31
+          </div>
+          <div
+            className="description"
+          >
+            Modern React with Redux
+          </div>
+        </div>
+        <div
+          className="extra content"
+        >
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="star icon"
+              onClick={[Function]}
+            />
+            2431
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="fork icon"
+              onClick={[Function]}
+            />
+            1812
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="eye icon"
+              onClick={[Function]}
+            />
+            2431
+          </span>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/reduxjs/react-redux"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars3.githubusercontent.com/u/13142323?v=4"
+          />
+          <div
+            className="header"
+          >
+            react-redux
+          </div>
+          <div
+            className="meta"
+          >
+            updated: 
+            2019/03/31
+          </div>
+          <div
+            className="description"
+          >
+            Official React bindings for Redux
+          </div>
+        </div>
+        <div
+          className="extra content"
+        >
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="star icon"
+              onClick={[Function]}
+            />
+            16177
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="fork icon"
+              onClick={[Function]}
+            />
+            2459
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="eye icon"
+              onClick={[Function]}
+            />
+            16177
+          </span>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/redux-saga/redux-saga"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars2.githubusercontent.com/u/24776643?v=4"
+          />
+          <div
+            className="header"
+          >
+            redux-saga
+          </div>
+          <div
+            className="meta"
+          >
+            updated: 
+            2019/03/31
+          </div>
+          <div
+            className="description"
+          >
+            An alternative side effect model for Redux apps
+          </div>
+        </div>
+        <div
+          className="extra content"
+        >
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="star icon"
+              onClick={[Function]}
+            />
+            17251
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="fork icon"
+              onClick={[Function]}
+            />
+            1508
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="eye icon"
+              onClick={[Function]}
+            />
+            17251
+          </span>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/erikras/redux-form"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars2.githubusercontent.com/u/4396759?v=4"
+          />
+          <div
+            className="header"
+          >
+            redux-form
+          </div>
+          <div
+            className="meta"
+          >
+            updated: 
+            2019/03/31
+          </div>
+          <div
+            className="description"
+          >
+            A Higher Order Component using react-redux to keep form state in a Redux store
+          </div>
+        </div>
+        <div
+          className="extra content"
+        >
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="star icon"
+              onClick={[Function]}
+            />
+            11373
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="fork icon"
+              onClick={[Function]}
+            />
+            1477
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="eye icon"
+              onClick={[Function]}
+            />
+            11373
+          </span>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/davezuko/react-redux-starter-kit"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars3.githubusercontent.com/u/6439050?v=4"
+          />
+          <div
+            className="header"
+          >
+            react-redux-starter-kit
+          </div>
+          <div
+            className="meta"
+          >
+            updated: 
+            2019/03/31
+          </div>
+          <div
+            className="description"
+          >
+            Get started with React, Redux, and React-Router.
+          </div>
+        </div>
+        <div
+          className="extra content"
+        >
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="star icon"
+              onClick={[Function]}
+            />
+            10424
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="fork icon"
+              onClick={[Function]}
+            />
+            2395
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="eye icon"
+              onClick={[Function]}
+            />
+            10424
+          </span>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/reduxjs/redux-thunk"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars3.githubusercontent.com/u/13142323?v=4"
+          />
+          <div
+            className="header"
+          >
+            redux-thunk
+          </div>
+          <div
+            className="meta"
+          >
+            updated: 
+            2019/03/31
+          </div>
+          <div
+            className="description"
+          >
+            Thunk middleware for Redux
+          </div>
+        </div>
+        <div
+          className="extra content"
+        >
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="star icon"
+              onClick={[Function]}
+            />
+            11756
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="fork icon"
+              onClick={[Function]}
+            />
+            612
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="eye icon"
+              onClick={[Function]}
+            />
+            11756
+          </span>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/xgrommx/awesome-redux"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars2.githubusercontent.com/u/1499594?v=4"
+          />
+          <div
+            className="header"
+          >
+            awesome-redux
+          </div>
+          <div
+            className="meta"
+          >
+            updated: 
+            2019/03/31
+          </div>
+          <div
+            className="description"
+          >
+            Awesome list of Redux examples and middlewares
+          </div>
+        </div>
+        <div
+          className="extra content"
+        >
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="star icon"
+              onClick={[Function]}
+            />
+            11304
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="fork icon"
+              onClick={[Function]}
+            />
+            1020
+          </span>
+          <span
+            className="css-dfavf8"
+          >
+            <i
+              aria-hidden="true"
+              className="eye icon"
+              onClick={[Function]}
+            />
+            11304
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+  <div
+    className="info__overlay"
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <button
+      className="info__close-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#027ac5",
+          "border": "none",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      type="button"
+    >
+      ×
+    </button>
+    <div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "black",
+            "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Common/RepositoryList
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            with data
+          </h2>
+        </div>
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  RepositoryList
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      repositories
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          [
+                          <span>
+                            <span>
+                              <br />
+                                
+                                
+                            </span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              {
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  id
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#a11",
+                                  }
+                                }
+                              >
+                                36535156
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  nodeId
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'MDEwOlJlcG9zaXRvcnkzNjUzNTE1Ng=='
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  name
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'redux'
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                …
+                              </span>
+                              <span>
+                                <br />
+                                    
+                              </span>
+                              }
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span>
+                              <br />
+                                
+                                
+                            </span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              {
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  id
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#a11",
+                                  }
+                                }
+                              >
+                                46890202
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  nodeId
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'MDEwOlJlcG9zaXRvcnk0Njg5MDIwMg=='
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  name
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'ReduxSimpleStarter'
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                …
+                              </span>
+                              <span>
+                                <br />
+                                    
+                              </span>
+                              }
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span>
+                              <br />
+                                
+                                
+                            </span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              {
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  id
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#a11",
+                                  }
+                                }
+                              >
+                                48957263
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  nodeId
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'MDEwOlJlcG9zaXRvcnk0ODk1NzI2Mw=='
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  name
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'ReduxCasts'
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                …
+                              </span>
+                              <span>
+                                <br />
+                                    
+                              </span>
+                              }
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span>
+                              <br />
+                                
+                                
+                            </span>
+                            …
+                          </span>
+                          <span>
+                            <br />
+                              
+                          </span>
+                          ]
+                        </span>
+                        }
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h3
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              RepositoryList
+              " Component
+            </h3>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Common/Spinner default 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="ui segment css-155pcfb-Spinner"
+    >
+      <div
+        className="ui active transition visible inverted dimmer"
+        onClick={[Function]}
+      >
+        <div
+          className="content"
+        >
+          <div
+            className="ui text loader"
+          >
+            読み込み中...
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+  <div
+    className="info__overlay"
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <button
+      className="info__close-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#027ac5",
+          "border": "none",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      type="button"
+    >
+      ×
+    </button>
+    <div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "black",
+            "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Common/Spinner
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            default
+          </h2>
+        </div>
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  Spinner
+                </span>
+                <span />
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h3
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              Spinner
+              " Component
+            </h3>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Common/Spinner with custom text 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="ui segment css-155pcfb-Spinner"
+    >
+      <div
+        className="ui active transition visible inverted dimmer"
+        onClick={[Function]}
+      >
+        <div
+          className="content"
+        >
+          <div
+            className="ui text loader"
+          >
+            ただいま結果を取得中です！
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+  <div
+    className="info__overlay"
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <button
+      className="info__close-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#027ac5",
+          "border": "none",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      type="button"
+    >
+      ×
+    </button>
+    <div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "black",
+            "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Common/Spinner
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            with custom text
+          </h2>
+        </div>
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  Spinner
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      message
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          ただいま結果を取得中です！
+                        </span>
+                        "
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h3
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              Spinner
+              " Component
+            </h3>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Common/UserList with data 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="ui cards"
+    >
+      <a
+        className="ui card"
+        href="https://github.com/gaearon"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars0.githubusercontent.com/u/810438?v=4"
+          />
+          <div
+            className="header"
+          >
+            gaearon
+          </div>
+          <div
+            className="meta"
+          >
+            GitHub ID: 
+            810438
+          </div>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/sophiebits"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars2.githubusercontent.com/u/6820?v=4"
+          />
+          <div
+            className="header"
+          >
+            sophiebits
+          </div>
+          <div
+            className="meta"
+          >
+            GitHub ID: 
+            6829
+          </div>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/sebmarkbage"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars2.githubusercontent.com/u/63648?v=4"
+          />
+          <div
+            className="header"
+          >
+            sebmarkbage
+          </div>
+          <div
+            className="meta"
+          >
+            GitHub ID: 
+            63648
+          </div>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/acdlite"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars0.githubusercontent.com/u/3624098?v=4"
+          />
+          <div
+            className="header"
+          >
+            acdlite
+          </div>
+          <div
+            className="meta"
+          >
+            GitHub ID: 
+            3624098
+          </div>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/gvjeux"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars0.githubusercontent.com/u/197597?v=4"
+          />
+          <div
+            className="header"
+          >
+            gvjeux
+          </div>
+          <div
+            className="meta"
+          >
+            GitHub ID: 
+            197597
+          </div>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/AGS-"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars0.githubusercontent.com/u/7844509?v=4"
+          />
+          <div
+            className="header"
+          >
+            AGS-
+          </div>
+          <div
+            className="meta"
+          >
+            GitHub ID: 
+            7844509
+          </div>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/ahmed-shehata"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars3.githubusercontent.com/u/4982099?v=4"
+          />
+          <div
+            className="header"
+          >
+            ahmed-shehata
+          </div>
+          <div
+            className="meta"
+          >
+            GitHub ID: 
+            4982099
+          </div>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/AhmedSoliman"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars0.githubusercontent.com/u/59670?v=4"
+          />
+          <div
+            className="header"
+          >
+            AhmedSoliman
+          </div>
+          <div
+            className="meta"
+          >
+            GitHub ID: 
+            59670
+          </div>
+        </div>
+      </a>
+      <a
+        className="ui card"
+        href="https://github.com/ajma"
+        onClick={[Function]}
+        target="_blank"
+      >
+        <div
+          className="content"
+        >
+          <img
+            className="ui mini right floated image"
+            src="https://avatars1.githubusercontent.com/u/136692?v=4"
+          />
+          <div
+            className="header"
+          >
+            ajma
+          </div>
+          <div
+            className="meta"
+          >
+            GitHub ID: 
+            136692
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+  <div
+    className="info__overlay"
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <button
+      className="info__close-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#027ac5",
+          "border": "none",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      type="button"
+    >
+      ×
+    </button>
+    <div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "black",
+            "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Common/UserList
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            with data
+          </h2>
+        </div>
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  UserList
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      users
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          [
+                          <span>
+                            <span>
+                              <br />
+                                
+                                
+                            </span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              {
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  login
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'gaearon'
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  id
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#a11",
+                                  }
+                                }
+                              >
+                                810438
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  nodeId
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'MDQ6VXNlcjgxMDQzOA=='
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                …
+                              </span>
+                              <span>
+                                <br />
+                                    
+                              </span>
+                              }
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span>
+                              <br />
+                                
+                                
+                            </span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              {
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  login
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'sophiebits'
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  id
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#a11",
+                                  }
+                                }
+                              >
+                                6829
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  nodeId
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'MDQ6VXNlcjY4MjA='
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                …
+                              </span>
+                              <span>
+                                <br />
+                                    
+                              </span>
+                              }
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span>
+                              <br />
+                                
+                                
+                            </span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              {
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  login
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'sebmarkbage'
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  id
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#a11",
+                                  }
+                                }
+                              >
+                                63648
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  nodeId
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'MDQ6VXNlcjYzNjQ4'
+                              </span>
+                              ,
+                              <span>
+                                <span>
+                                  <br />
+                                      
+                                    
+                                </span>
+                                …
+                              </span>
+                              <span>
+                                <br />
+                                    
+                              </span>
+                              }
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span>
+                              <br />
+                                
+                                
+                            </span>
+                            …
+                          </span>
+                          <span>
+                            <br />
+                              
+                          </span>
+                          ]
+                        </span>
+                        }
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h3
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              UserList
+              " Component
+            </h3>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Companies/index default 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="ui celled relaxed list"
+        role="list"
+      >
+        <div
+          className="item css-1f1ghry"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <i
+            aria-hidden="true"
+            className="users large icon middle aligned"
+            onClick={[Function]}
+          />
+          <div
+            className="content"
+          >
+            <a
+              href="/facebook/members"
+              onClick={[Function]}
+            >
+              Facebook
+              のメンバー
+            </a>
+          </div>
+        </div>
+        <div
+          className="item css-1f1ghry"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <i
+            aria-hidden="true"
+            className="users large icon middle aligned"
+            onClick={[Function]}
+          />
+          <div
+            className="content"
+          >
+            <a
+              href="/airbnb/members"
+              onClick={[Function]}
+            >
+              Airbnb
+              のメンバー
+            </a>
+          </div>
+        </div>
+        <div
+          className="item css-1f1ghry"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <i
+            aria-hidden="true"
+            className="users large icon middle aligned"
+            onClick={[Function]}
+          />
+          <div
+            className="content"
+          >
+            <a
+              href="/netflix/members"
+              onClick={[Function]}
+            >
+              Netflix
+              のメンバー
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-14uk463-Companies"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <button
+            className="ui icon left labeled button"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="home icon"
+              onClick={[Function]}
+            />
+            ホーム
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+  <div
+    className="info__overlay"
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <button
+      className="info__close-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#027ac5",
+          "border": "none",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      type="button"
+    >
+      ×
+    </button>
+    <div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "black",
+            "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Companies/index
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            default
+          </h2>
+        </div>
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &lt;
+                    BrowserRouter
+                  </span>
+                  <span />
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &gt;
+                  </span>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 33,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &lt;
+                    Companies
+                  </span>
+                  <span />
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    /&gt;
+                  </span>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &lt;/
+                    BrowserRouter
+                    &gt;
+                  </span>
+                </div>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h3
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              BrowserRouter
+              " Component
+            </h3>
+            <table>
+              <thead>
+                <tr>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    property
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    propType
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    required
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    default
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    description
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    basename
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span>
+                      string
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    children
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span>
+                      node
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    forceRefresh
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span>
+                      bool
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    getUserConfirmation
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span>
+                      func
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    keyLength
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span>
+                      number
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h3
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              Companies
+              " Component
+            </h3>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Companies/index with data 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="ui celled relaxed list"
+        role="list"
+      >
+        <div
+          className="item css-1f1ghry"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <i
+            aria-hidden="true"
+            className="users large icon middle aligned"
+            onClick={[Function]}
+          />
+          <div
+            className="content"
+          >
+            <a
+              href="/google/members"
+              onClick={[Function]}
+            >
+              Google
+              のメンバー
+            </a>
+          </div>
+        </div>
+        <div
+          className="item css-1f1ghry"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <i
+            aria-hidden="true"
+            className="users large icon middle aligned"
+            onClick={[Function]}
+          />
+          <div
+            className="content"
+          >
+            <a
+              href="/apple/members"
+              onClick={[Function]}
+            >
+              Apple
+              のメンバー
+            </a>
+          </div>
+        </div>
+        <div
+          className="item css-1f1ghry"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <i
+            aria-hidden="true"
+            className="users large icon middle aligned"
+            onClick={[Function]}
+          />
+          <div
+            className="content"
+          >
+            <a
+              href="/amazon/members"
+              onClick={[Function]}
+            >
+              Amazon
+              のメンバー
+            </a>
+          </div>
+        </div>
+        <div
+          className="item css-1f1ghry"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <i
+            aria-hidden="true"
+            className="users large icon middle aligned"
+            onClick={[Function]}
+          />
+          <div
+            className="content"
+          >
+            <a
+              href="/microsoft/members"
+              onClick={[Function]}
+            >
+              Microsoft
+              のメンバー
+            </a>
+          </div>
+        </div>
+        <div
+          className="item css-1f1ghry"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <i
+            aria-hidden="true"
+            className="users large icon middle aligned"
+            onClick={[Function]}
+          />
+          <div
+            className="content"
+          >
+            <a
+              href="/twitter/members"
+              onClick={[Function]}
+            >
+              Twitter
+              のメンバー
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-14uk463-Companies"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <button
+            className="ui icon left labeled button"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="home icon"
+              onClick={[Function]}
+            />
+            ホーム
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+  <div
+    className="info__overlay"
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <button
+      className="info__close-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#027ac5",
+          "border": "none",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      type="button"
+    >
+      ×
+    </button>
+    <div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "black",
+            "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Companies/index
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            with data
+          </h2>
+        </div>
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &lt;
+                    BrowserRouter
+                  </span>
+                  <span />
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &gt;
+                  </span>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 33,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &lt;
+                    Companies
+                  </span>
+                  <span>
+                    <span>
+                       
+                      <span
+                        style={Object {}}
+                      >
+                        companies
+                      </span>
+                      <span>
+                        =
+                        <span
+                          style={Object {}}
+                        >
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#666",
+                              }
+                            }
+                          >
+                            [
+                            <span>
+                              <span>
+                                <br />
+                                  
+                                  
+                              </span>
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'google'
+                              </span>
+                            </span>
+                            ,
+                            <span>
+                              <span>
+                                <br />
+                                  
+                                  
+                              </span>
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'apple'
+                              </span>
+                            </span>
+                            ,
+                            <span>
+                              <span>
+                                <br />
+                                  
+                                  
+                              </span>
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'amazon'
+                              </span>
+                            </span>
+                            ,
+                            <span>
+                              <span>
+                                <br />
+                                  
+                                  
+                              </span>
+                              …
+                            </span>
+                            <span>
+                              <br />
+                                
+                            </span>
+                            ]
+                          </span>
+                          }
+                        </span>
+                      </span>
+                       
+                    </span>
+                  </span>
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    /&gt;
+                  </span>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &lt;/
+                    BrowserRouter
+                    &gt;
+                  </span>
+                </div>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h3
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              BrowserRouter
+              " Component
+            </h3>
+            <table>
+              <thead>
+                <tr>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    property
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    propType
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    required
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    default
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    description
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    basename
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span>
+                      string
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    children
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span>
+                      node
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    forceRefresh
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span>
+                      bool
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    getUserConfirmation
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span>
+                      func
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    keyLength
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span>
+                      number
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h3
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              Companies
+              " Component
+            </h3>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Repository Search/Form default 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div>
+      <form
+        className="css-obsqsl-RepositoryForm"
+        onSubmit={[Function]}
+      >
+        <div
+          aria-expanded={false}
+          className="ui selection dropdown"
+          name="sort"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          role="listbox"
+          tabIndex={0}
+        >
+          <div
+            aria-live="polite"
+            className="default text"
+            role="alert"
+          >
+            並び順
+          </div>
+          <i
+            aria-hidden="true"
+            className="dropdown icon"
+            onClick={[Function]}
+          />
+          <div
+            className="menu transition"
+          >
+            <div
+              aria-checked={true}
+              aria-selected={true}
+              className="active selected item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                マッチ度
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                スター数
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                フォーク数
+              </span>
+            </div>
+            <div
+              aria-checked={false}
+              aria-selected={false}
+              className="item"
+              onClick={[Function]}
+              role="option"
+              style={
+                Object {
+                  "pointerEvents": "all",
+                }
+              }
+            >
+              <span
+                className="text"
+              >
+                更新日
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui input css-x9uons-RepositoryForm"
+        >
+          <input
+            name="q"
+            onChange={[Function]}
+            placeholder="リポジトリ名を入力..."
+            type="text"
+            value=""
+          />
+        </div>
+        <button
+          className="ui primary disabled button"
+          data-test="exec-search"
+          disabled={true}
+          onClick={[Function]}
+          tabIndex={-1}
+          type="submit"
+        >
+          検索
+        </button>
+      </form>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+  <div
+    className="info__overlay"
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <button
+      className="info__close-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#027ac5",
+          "border": "none",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      type="button"
+    >
+      ×
+    </button>
+    <div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "black",
+            "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Repository Search/Form
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            default
+          </h2>
+        </div>
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  RepositoryForm
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      values
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              q
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            ''
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              sort
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            ''
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      isLoading
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#a11",
+                            }
+                          }
+                        >
+                          false
+                        </span>
+                        }
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h3
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              RepositoryForm
+              " Component
+            </h3>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

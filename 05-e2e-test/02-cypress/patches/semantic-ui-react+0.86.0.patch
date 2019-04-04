@@ -1,0 +1,13 @@
+diff --git a/node_modules/semantic-ui-react/dist/commonjs/modules/Dimmer/DimmerInner.js b/node_modules/semantic-ui-react/dist/commonjs/modules/Dimmer/DimmerInner.js
+index 1de721e..bf901b1 100644
+--- a/node_modules/semantic-ui-react/dist/commonjs/modules/Dimmer/DimmerInner.js
++++ b/node_modules/semantic-ui-react/dist/commonjs/modules/Dimmer/DimmerInner.js
+@@ -89,7 +89,7 @@ function (_Component) {
+     key: "toggleStyles",
+     value: function toggleStyles(active) {
+       var containerRef = this.containerRef.current;
+-      if (!containerRef) return;
++      if (!containerRef || !containerRef.style) return
+ 
+       if (active) {
+         containerRef.style.setProperty('display', 'flex', 'important');
