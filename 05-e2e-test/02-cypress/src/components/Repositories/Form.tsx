@@ -28,21 +28,25 @@ const sortOptions = [
     key: 'match',
     text: 'マッチ度',
     value: '',
+    'data-testid': 'match',
   },
   {
     key: 'stars',
     text: 'スター数',
     value: 'stars',
+    'data-testid': 'stars',
   },
   {
     key: 'forks',
     text: 'フォーク数',
     value: 'forks',
+    'data-testid': 'forks',
   },
   {
     key: 'updated',
     text: '更新日',
     value: 'updated',
+    'data-testid': 'updated',
   },
 ];
 
@@ -60,6 +64,7 @@ const RepositoryForm: FC<RepositoryFormProps> = ({
         value={values.sort}
         options={sortOptions}
         placeholder="並び順"
+        data-testid="sort-select"
         selection
       />
       <Input
@@ -69,12 +74,13 @@ const RepositoryForm: FC<RepositoryFormProps> = ({
         onChange={(event, data) => handleChange('q', String(data.value))}
         value={values.q}
         css={input}
+        data-testid="q-input"
       />
       <Button
         type="submit"
         disabled={!values.q.length || isLoading}
         primary
-        data-test="exec-search"
+        data-testid="search-button"
       >
         検索
       </Button>

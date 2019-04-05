@@ -15,6 +15,7 @@ exports[`Storyshots Common/RepositoryList with data 1`] = `
     >
       <a
         className="ui card"
+        data-testid="redux"
         href="https://github.com/reduxjs/redux"
         onClick={[Function]}
         target="_blank"
@@ -80,6 +81,7 @@ exports[`Storyshots Common/RepositoryList with data 1`] = `
       </a>
       <a
         className="ui card"
+        data-testid="ReduxSimpleStarter"
         href="https://github.com/StephenGrider/ReduxSimpleStarter"
         onClick={[Function]}
         target="_blank"
@@ -145,6 +147,7 @@ exports[`Storyshots Common/RepositoryList with data 1`] = `
       </a>
       <a
         className="ui card"
+        data-testid="ReduxCasts"
         href="https://github.com/StephenGrider/ReduxCasts"
         onClick={[Function]}
         target="_blank"
@@ -210,6 +213,7 @@ exports[`Storyshots Common/RepositoryList with data 1`] = `
       </a>
       <a
         className="ui card"
+        data-testid="react-redux"
         href="https://github.com/reduxjs/react-redux"
         onClick={[Function]}
         target="_blank"
@@ -275,6 +279,7 @@ exports[`Storyshots Common/RepositoryList with data 1`] = `
       </a>
       <a
         className="ui card"
+        data-testid="redux-saga"
         href="https://github.com/redux-saga/redux-saga"
         onClick={[Function]}
         target="_blank"
@@ -340,6 +345,7 @@ exports[`Storyshots Common/RepositoryList with data 1`] = `
       </a>
       <a
         className="ui card"
+        data-testid="redux-form"
         href="https://github.com/erikras/redux-form"
         onClick={[Function]}
         target="_blank"
@@ -405,6 +411,7 @@ exports[`Storyshots Common/RepositoryList with data 1`] = `
       </a>
       <a
         className="ui card"
+        data-testid="react-redux-starter-kit"
         href="https://github.com/davezuko/react-redux-starter-kit"
         onClick={[Function]}
         target="_blank"
@@ -470,6 +477,7 @@ exports[`Storyshots Common/RepositoryList with data 1`] = `
       </a>
       <a
         className="ui card"
+        data-testid="redux-thunk"
         href="https://github.com/reduxjs/redux-thunk"
         onClick={[Function]}
         target="_blank"
@@ -535,6 +543,7 @@ exports[`Storyshots Common/RepositoryList with data 1`] = `
       </a>
       <a
         className="ui card"
+        data-testid="awesome-redux"
         href="https://github.com/xgrommx/awesome-redux"
         onClick={[Function]}
         target="_blank"
@@ -1790,6 +1799,7 @@ exports[`Storyshots Common/UserList with data 1`] = `
       >
         <div
           className="content"
+          data-testid="gaearon"
         >
           <img
             className="ui mini right floated image"
@@ -1816,6 +1826,7 @@ exports[`Storyshots Common/UserList with data 1`] = `
       >
         <div
           className="content"
+          data-testid="sophiebits"
         >
           <img
             className="ui mini right floated image"
@@ -1842,6 +1853,7 @@ exports[`Storyshots Common/UserList with data 1`] = `
       >
         <div
           className="content"
+          data-testid="sebmarkbage"
         >
           <img
             className="ui mini right floated image"
@@ -1868,6 +1880,7 @@ exports[`Storyshots Common/UserList with data 1`] = `
       >
         <div
           className="content"
+          data-testid="acdlite"
         >
           <img
             className="ui mini right floated image"
@@ -1894,6 +1907,7 @@ exports[`Storyshots Common/UserList with data 1`] = `
       >
         <div
           className="content"
+          data-testid="gvjeux"
         >
           <img
             className="ui mini right floated image"
@@ -1920,6 +1934,7 @@ exports[`Storyshots Common/UserList with data 1`] = `
       >
         <div
           className="content"
+          data-testid="AGS-"
         >
           <img
             className="ui mini right floated image"
@@ -1946,6 +1961,7 @@ exports[`Storyshots Common/UserList with data 1`] = `
       >
         <div
           className="content"
+          data-testid="ahmed-shehata"
         >
           <img
             className="ui mini right floated image"
@@ -1972,6 +1988,7 @@ exports[`Storyshots Common/UserList with data 1`] = `
       >
         <div
           className="content"
+          data-testid="AhmedSoliman"
         >
           <img
             className="ui mini right floated image"
@@ -1998,6 +2015,7 @@ exports[`Storyshots Common/UserList with data 1`] = `
       >
         <div
           className="content"
+          data-testid="ajma"
         >
           <img
             className="ui mini right floated image"
@@ -2661,6 +2679,7 @@ exports[`Storyshots Companies/index default 1`] = `
             className="content"
           >
             <a
+              data-testid="facebook-page"
               href="/facebook/members"
               onClick={[Function]}
             >
@@ -2683,6 +2702,7 @@ exports[`Storyshots Companies/index default 1`] = `
             className="content"
           >
             <a
+              data-testid="airbnb-page"
               href="/airbnb/members"
               onClick={[Function]}
             >
@@ -2705,6 +2725,7 @@ exports[`Storyshots Companies/index default 1`] = `
             className="content"
           >
             <a
+              data-testid="netflix-page"
               href="/netflix/members"
               onClick={[Function]}
             >
@@ -2723,6 +2744,7 @@ exports[`Storyshots Companies/index default 1`] = `
         >
           <button
             className="ui icon left labeled button"
+            data-testid="home-link"
             onClick={[Function]}
           >
             <i
@@ -3381,6 +3403,7 @@ exports[`Storyshots Companies/index with data 1`] = `
             className="content"
           >
             <a
+              data-testid="google-page"
               href="/google/members"
               onClick={[Function]}
             >
@@ -3403,6 +3426,7 @@ exports[`Storyshots Companies/index with data 1`] = `
             className="content"
           >
             <a
+              data-testid="apple-page"
               href="/apple/members"
               onClick={[Function]}
             >
@@ -3425,6 +3449,7 @@ exports[`Storyshots Companies/index with data 1`] = `
             className="content"
           >
             <a
+              data-testid="amazon-page"
               href="/amazon/members"
               onClick={[Function]}
             >
@@ -3447,6 +3472,7 @@ exports[`Storyshots Companies/index with data 1`] = `
             className="content"
           >
             <a
+              data-testid="microsoft-page"
               href="/microsoft/members"
               onClick={[Function]}
             >
@@ -3469,6 +3495,7 @@ exports[`Storyshots Companies/index with data 1`] = `
             className="content"
           >
             <a
+              data-testid="twitter-page"
               href="/twitter/members"
               onClick={[Function]}
             >
@@ -3487,6 +3514,7 @@ exports[`Storyshots Companies/index with data 1`] = `
         >
           <button
             className="ui icon left labeled button"
+            data-testid="home-link"
             onClick={[Function]}
           >
             <i
@@ -4229,6 +4257,7 @@ exports[`Storyshots Repository Search/Form default 1`] = `
         <div
           aria-expanded={false}
           className="ui selection dropdown"
+          data-testid="sort-select"
           name="sort"
           onBlur={[Function]}
           onChange={[Function]}
@@ -4257,6 +4286,7 @@ exports[`Storyshots Repository Search/Form default 1`] = `
               aria-checked={true}
               aria-selected={true}
               className="active selected item"
+              data-testid="match"
               onClick={[Function]}
               role="option"
               style={
@@ -4275,6 +4305,7 @@ exports[`Storyshots Repository Search/Form default 1`] = `
               aria-checked={false}
               aria-selected={false}
               className="item"
+              data-testid="stars"
               onClick={[Function]}
               role="option"
               style={
@@ -4293,6 +4324,7 @@ exports[`Storyshots Repository Search/Form default 1`] = `
               aria-checked={false}
               aria-selected={false}
               className="item"
+              data-testid="forks"
               onClick={[Function]}
               role="option"
               style={
@@ -4311,6 +4343,7 @@ exports[`Storyshots Repository Search/Form default 1`] = `
               aria-checked={false}
               aria-selected={false}
               className="item"
+              data-testid="updated"
               onClick={[Function]}
               role="option"
               style={
@@ -4329,6 +4362,7 @@ exports[`Storyshots Repository Search/Form default 1`] = `
         </div>
         <div
           className="ui input css-x9uons-RepositoryForm"
+          data-testid="q-input"
         >
           <input
             name="q"
@@ -4340,7 +4374,7 @@ exports[`Storyshots Repository Search/Form default 1`] = `
         </div>
         <button
           className="ui primary disabled button"
-          data-test="exec-search"
+          data-testid="search-button"
           disabled={true}
           onClick={[Function]}
           tabIndex={-1}

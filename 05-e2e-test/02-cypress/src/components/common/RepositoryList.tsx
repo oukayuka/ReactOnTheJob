@@ -17,7 +17,12 @@ export interface RepositoryListProps {
 const RepositoryList: FC<RepositoryListProps> = ({ repositories = [] }) => (
   <Card.Group>
     {repositories.map(repo => (
-      <Card key={repo.id} href={repo.htmlUrl} target="_blank">
+      <Card
+        key={repo.id}
+        href={repo.htmlUrl}
+        target="_blank"
+        data-testid={repo.name}
+      >
         <Card.Content>
           <Image floated="right" size="mini" src={repo.owner.avatarUrl} />
           <Card.Header>{repo.name}</Card.Header>

@@ -23,7 +23,10 @@ const Companies: FC<{ companies?: string[] }> = ({
         <List.Item css={listItem} key={companyName}>
           <List.Icon name="users" size="large" verticalAlign="middle" />
           <List.Content>
-            <Link to={`/${companyName}/members`}>
+            <Link
+              to={`/${companyName}/members`}
+              data-testid={`${companyName}-page`}
+            >
               {capitalize(companyName)}のメンバー
             </Link>
           </List.Content>
@@ -32,7 +35,12 @@ const Companies: FC<{ companies?: string[] }> = ({
     </List>
     <div css={linkButtons}>
       <Link to={pages.index.path}>
-        <Button content="ホーム" icon="home" labelPosition="left" />
+        <Button
+          content="ホーム"
+          icon="home"
+          labelPosition="left"
+          data-testid="home-link"
+        />
       </Link>
     </div>
   </div>

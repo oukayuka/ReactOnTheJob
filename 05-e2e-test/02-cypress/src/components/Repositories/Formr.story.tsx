@@ -5,11 +5,9 @@ import { boolean, object } from '@storybook/addon-knobs';
 
 import Form from './Form';
 
-const match = '';
-
 storiesOf('Repository Search/Form', module).add('default', () => (
   <Form
-    values={object('value', { q: '', sort: match as typeof match })}
+    values={object('value', { q: '', sort: '' } as const)}
     isLoading={boolean('isLoading', false)}
   />
 ));

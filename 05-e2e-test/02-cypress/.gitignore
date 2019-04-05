@@ -9,6 +9,7 @@
 # testing
 coverage
 lib-cov
+/cypress/videos
 
 # build
 /build

@@ -13,7 +13,7 @@ const UserList: FC<UserListProps> = ({ users = [] }) => (
   <Card.Group>
     {users.map(user => (
       <Card key={user.id} href={user.htmlUrl} target="_blank">
-        <Card.Content>
+        <Card.Content data-testid={user.login}>
           <Image floated="right" size="mini" src={user.avatarUrl} />
           <Card.Header>{user.login}</Card.Header>
           <Card.Meta>GitHub ID: {user.id}</Card.Meta>

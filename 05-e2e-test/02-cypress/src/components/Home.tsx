@@ -17,7 +17,7 @@ const Home: FC = () => (
           verticalAlign="middle"
         />
         <List.Content>
-          <Link to={pages.companies.index.path}>
+          <Link to={pages.companies.index.path} data-testid="companies-page">
             {pages.companies.index.title}
           </Link>
         </List.Content>
@@ -25,7 +25,7 @@ const Home: FC = () => (
       <List.Item css={listItem}>
         <List.Icon name="code" size="large" verticalAlign="middle" />
         <List.Content>
-          <Link to={pages.repositories.search.path}>
+          <Link to={pages.repositories.search.path} data-testid="search-page">
             {pages.repositories.search.title}
           </Link>
         </List.Content>

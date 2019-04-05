@@ -2,13 +2,13 @@
 import React, { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { css, jsx } from '@emotion/core';
-import { Helmet } from 'react-helmet';
 import { Button, Header } from 'semantic-ui-react';
 import capitalize from 'lodash/capitalize';
 import { sprintf } from 'sprintf-js';
 
 import pages from '../../pages';
 import { User } from '../../services/github/models';
+import HtmlTitle from '../common/HtmlTitle';
 import Spinner from '../common/Spinner';
 import UserList from '../common/UserList';
 
@@ -39,9 +39,7 @@ const CompanyMembers: FC<CompanyMembersProps> = ({
   return (
     <div>
       <div>
-        <Helmet>
-          <title>{title}</title>
-        </Helmet>
+        <HtmlTitle title={title} />
         <div css={members}>
           <Header as="h2" css={memberHeader}>
             {title}
@@ -51,13 +49,19 @@ const CompanyMembers: FC<CompanyMembersProps> = ({
       </div>
       <div css={linkButtons}>
         <Link to={pages.index.path}>
-          <Button content="ホーム" icon="home" labelPosition="left" />
+          <Button
+            content="ホーム"
+            icon="home"
+            labelPosition="left"
+            data-testid="home-link"
+          />
         </Link>
         <Link to={pages.companies.index.path}>
           <Button
             content="会社一覧"
             icon="building outline"
             labelPosition="left"
+            data-testid="companies-link"
           />
         </Link>
       </div>

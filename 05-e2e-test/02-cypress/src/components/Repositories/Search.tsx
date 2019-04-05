@@ -31,7 +31,12 @@ const RepositorySearch: FC = () => (
     </div>
     <div css={linkButtons}>
       <Link to={pages.index.path}>
-        <Button content="ホーム" icon="home" labelPosition="left" />
+        <Button
+          content="ホーム"
+          icon="home"
+          labelPosition="left"
+          data-testid="home-link"
+        />
       </Link>
     </div>
   </div>

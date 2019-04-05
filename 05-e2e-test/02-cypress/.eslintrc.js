@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
-    'jest/globals': true
+    'jest/globals': true,
   },
   extends: [
     'airbnb',
@@ -13,20 +13,22 @@ module.exports = {
     'plugin:prettier/recommended',
     'prettier',
     'prettier/@typescript-eslint',
-    'prettier/react'
+    'prettier/react',
   ],
   globals: {
     Atomics: 'readonly',
+    cy: 'readonly',
+    Cypress: 'readonly',
     SharedArrayBuffer: 'readonly',
-    '__DEV__': true
+    __DEV__: true,
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
     project: './tsconfig.json',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: [
     '@typescript-eslint',
@@ -34,18 +36,18 @@ module.exports = {
     'prettier',
     'prefer-arrow',
     'react',
-    'react-hooks'
+    'react-hooks',
   ],
   root: true,
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', 'jsx', '.ts', '.tsx']
-      }
+        extensions: ['.js', 'jsx', '.ts', '.tsx'],
+      },
     },
     react: {
-      version: 'detect'
-    }
+      version: 'detect',
+    },
   },
   rules: {
     // eslint official
@@ -62,9 +64,11 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
-        varsIgnorePattern: '[Rr]eact'
-      }
+        varsIgnorePattern: '[Rr]eact',
+      },
     ],
+    // Should be removed after merged https://github.com/typescript-eslint/typescript-eslint/pull/390
+    '@typescript-eslint/no-object-literal-type-assertion': 'off',
 
     // prefer-arrow
     'prefer-arrow/prefer-arrow-functions': [
@@ -72,16 +76,16 @@ module.exports = {
       {
         disallowPrototype: true,
         singleReturnOnly: true,
-        classPropertiesAllowed: false
-      }
+        classPropertiesAllowed: false,
+      },
     ],
 
     // react
     'react/jsx-filename-extension': [
       'error',
       {
-        extensions: ['jsx', 'tsx']
-      }
+        extensions: ['jsx', 'tsx'],
+      },
     ],
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-uses-react': 'error',
@@ -100,8 +104,8 @@ module.exports = {
         js: 'never',
         jsx: 'never',
         ts: 'never',
-        tsx: 'never'
-      }
+        tsx: 'never',
+      },
     ],
     'import/no-extraneous-dependencies': [
       'error',
@@ -115,22 +119,23 @@ module.exports = {
           '**/*/*.spec.*',
           '**/__tests__/**',
           '**/*/*.test.*',
-          'src/setupTests.*'
-        ]
-      }
+          'src/setupTests.*',
+        ],
+      },
     ],
     'import/prefer-default-export': 'off',
 
     // prettier
     'prettier/prettier': [
-      'error', {
+      'error',
+      {
         bracketSpacing: true,
         printWidth: 80,
         semi: true,
         singleQuote: true,
         trailingComma: 'all',
-        useTabs: false
-      }
-    ]
-  }
+        useTabs: false,
+      },
+    ],
+  },
 };

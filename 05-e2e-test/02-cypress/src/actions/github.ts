@@ -11,21 +11,24 @@ interface GetMembersResult {
 }
 
 export const getMembers = {
-  start: (params: GetMembersParams) => ({
-    type: ActionType.GET_MEMBERS_START as typeof ActionType.GET_MEMBERS_START,
-    payload: params,
-  }),
+  start: (params: GetMembersParams) =>
+    ({
+      type: ActionType.GET_MEMBERS_START,
+      payload: params,
+    } as const),
 
-  succeed: (params: GetMembersParams, result: GetMembersResult) => ({
-    type: ActionType.GET_MEMBERS_SUCCEED as typeof ActionType.GET_MEMBERS_SUCCEED,
-    payload: { params, result },
-  }),
+  succeed: (params: GetMembersParams, result: GetMembersResult) =>
+    ({
+      type: ActionType.GET_MEMBERS_SUCCEED,
+      payload: { params, result },
+    } as const),
 
-  fail: (params: GetMembersParams, error: AxiosError) => ({
-    type: ActionType.GET_MEMBERS_FAIL as typeof ActionType.GET_MEMBERS_FAIL,
-    payload: { params, error },
-    error: true,
-  }),
+  fail: (params: GetMembersParams, error: AxiosError) =>
+    ({
+      type: ActionType.GET_MEMBERS_FAIL,
+      payload: { params, error },
+      error: true,
+    } as const),
 };
 
 export interface SearchRepositoriesParams {
@@ -37,24 +40,27 @@ interface SearchRepositoriesResult {
 }
 
 export const searchRepositories = {
-  start: (params: SearchRepositoriesParams) => ({
-    type: ActionType.SEARCH_REPOSITORIES_START as typeof ActionType.SEARCH_REPOSITORIES_START,
-    payload: params,
-  }),
+  start: (params: SearchRepositoriesParams) =>
+    ({
+      type: ActionType.SEARCH_REPOSITORIES_START,
+      payload: params,
+    } as const),
 
   succeed: (
     params: SearchRepositoriesParams,
     result: SearchRepositoriesResult,
-  ) => ({
-    type: ActionType.SEARCH_REPOSITORIES_SUCCEED as typeof ActionType.SEARCH_REPOSITORIES_SUCCEED,
-    payload: { params, result },
-  }),
+  ) =>
+    ({
+      type: ActionType.SEARCH_REPOSITORIES_SUCCEED,
+      payload: { params, result },
+    } as const),
 
-  fail: (params: SearchRepositoriesParams, error: AxiosError) => ({
-    type: ActionType.SEARCH_REPOSITORIES_FAIL as typeof ActionType.SEARCH_REPOSITORIES_FAIL,
-    payload: { params, error },
-    error: true,
-  }),
+  fail: (params: SearchRepositoriesParams, error: AxiosError) =>
+    ({
+      type: ActionType.SEARCH_REPOSITORIES_FAIL,
+      payload: { params, error },
+      error: true,
+    } as const),
 };
 
 export type GithubAction =

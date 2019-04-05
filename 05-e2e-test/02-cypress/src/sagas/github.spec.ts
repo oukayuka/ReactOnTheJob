@@ -47,8 +47,7 @@ describe("GitHub API sagas' saga", () => {
 
   describe('Search repositories saga', () => {
     const handler = jest.fn();
-    const stars = 'stars';
-    const params = { q: 'redux', sort: stars as typeof stars };
+    const params = { q: 'redux', sort: 'stars' } as const;
     const repositories = camelcaseKeys(repoData, { deep: true });
 
     it('should succeeded', async () => {
