@@ -8,6 +8,7 @@ import { sprintf } from 'sprintf-js';
 
 import pages from '../../pages';
 import { User } from '../../services/github/models';
+import HtmlTitle from '../common/HtmlTitle';
 import Spinner from '../common/Spinner';
 
 const members = css`
@@ -33,9 +34,7 @@ const CompanyMembers: FC<CompanyMembersProps> = ({
 
   return (
     <div>
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
+      <HtmlTitle title={title} />
       <div css={members}>
         <Header as="h2" css={memberHeader}>
           {title}

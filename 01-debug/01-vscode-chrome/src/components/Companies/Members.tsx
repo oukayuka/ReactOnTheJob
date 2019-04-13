@@ -6,6 +6,7 @@ import { sprintf } from 'sprintf-js';
 
 import pages from '../../pages';
 import { User } from '../../services/github/models';
+import HtmlTitle from '../common/HtmlTitle';
 import Spinner from '../common/Spinner';
 
 import './Members.css';
@@ -25,9 +26,7 @@ const CompanyMembers: FC<CompanyMembersProps> = ({
 
   return (
     <>
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
+      <HtmlTitle title={title} />
       <div className="members">
         <Header as="h2">{title}</Header>
         {isLoading ? (

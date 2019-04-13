@@ -8,7 +8,9 @@ import RepositoryList from './RepositoryList';
 import { Repository } from '../../services/github/models';
 import data from '../../services/github/__mocks__/repositories.json';
 
-const repositories: Repository[] = camelcaseKeys(data, { deep: true });
+const repositories = camelcaseKeys(data, {
+  deep: true,
+}) as Repository[];
 
 storiesOf('Common/RepositoryList', module).add('with data', () => (
   <RepositoryList repositories={object('repositories', repositories)} />

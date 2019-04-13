@@ -8,7 +8,7 @@ import UserList from './UserList';
 import { User } from '../../services/github/models';
 import data from '../../services/github/__mocks__/users.json';
 
-const users: User[] = camelcaseKeys(data, { deep: true });
+const users = camelcaseKeys(data, { deep: true }) as User[];
 
 storiesOf('Common/UserList', module).add('with data', () => (
   <UserList users={object('users', users)} />
