@@ -11,6 +11,7 @@
     "ms-vsliveshare.vsliveshare",
     "oderwat.indent-rainbow",
     "shinnn.stylelint",
+    "VisualStudioExptTeam.vscodeintellicode",
     "vscode-icons-team.vscode-icons"
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
