@@ -24,7 +24,7 @@
     "lodash": "^4.17.11",
     "patch-package": "^6.1.2",
     "postinstall-postinstall": "^2.0.0",
-    "qs": "^6.7.0",
+    "qs": "^6.7.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^6.0.0-beta",
